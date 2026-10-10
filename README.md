@@ -11,6 +11,7 @@
 [![Escuela](https://img.shields.io/badge/Escuela-Francesa%20%C2%B7%20Michel%20Godet-3776AB.svg)]()
 [![Horizonte](https://img.shields.io/badge/Horizonte-2026%E2%80%932036-150458.svg)]()
 [![Escenario meta](https://img.shields.io/badge/Escenario%20meta-48%2C33%25-orange.svg)]()
+[![Licencia](https://img.shields.io/badge/Licencia-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Entregado-success.svg)]()
 
 **[Contexto](#-contexto-y-alcance) • [Contenido](#-contenido-del-repositorio) • [Herramientas](#-herramientas-utilizadas) • [Arquitectura](#-arquitectura-del-análisis) • [Resultados](#-resultados-clave) • [Autores](#-autores)**
@@ -38,6 +39,7 @@
 - [📄 Cómo Revisar el Proyecto](#-cómo-revisar-el-proyecto)
 - [✅ Evidencias Incluidas](#-evidencias-incluidas)
 - [📝 Nota](#-nota)
+- [⚖️ Licencia](#️-licencia)
 - [👥 Autores](#-autores)
 
 ---
@@ -85,6 +87,7 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
   <tr><td><code>Simulador imagen 1.png</code> … <code>Simulador imagen 31.png</code></td><td>📸 31 capturas que documentan paso a paso el uso del simulador</td></tr>
   <tr><td colspan="2"><b>📂 raíz</b></td></tr>
   <tr><td><code>README.md</code></td><td>📄 Este documento</td></tr>
+  <tr><td><code>LICENSE</code></td><td>⚖️ Licencia MIT</td></tr>
   <tr><td><code>.gitignore</code></td><td>🚫 Mantiene en local los documentos editables (<code>.docx</code>, <code>.doc</code>), el material del curso y los temporales de Office</td></tr>
 </table>
 
@@ -246,6 +249,12 @@ flowchart TD
 ## 📝 Nota
 
 Este estudio corresponde a una **actividad académica**. Se elaboró con fines exclusivamente formativos y no constituye una recomendación de negocio para Imaginamos S.A.S.
+
+---
+
+## ⚖️ Licencia
+
+Este proyecto se distribuye bajo la **Licencia MIT**. Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
 
 ---
 
