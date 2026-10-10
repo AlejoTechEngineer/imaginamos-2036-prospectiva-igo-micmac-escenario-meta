@@ -1,0 +1,29 @@
+# ── Documentos editables (solo local) ─────────────────────────
+*.docx
+*.doc
+*.dotx
+*.docm
+*.odt
+*.rtf
+
+# Documento editable de la actividad (está en la raíz, no en una subcarpeta)
+Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva.docx
+
+# ── Temporales de Office ──────────────────────────────────────
+~$*
+*.tmp
+~*.tmp
+
+# ── Sistema operativo y editor ────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.lnk
+
+# ── Material del curso y plantillas (no forman parte del entregable) ──
+Escenario No. 1/
+Escenario No. 2/
+Escenario No. 3/
+Primer sincronico- Pensamiento estrategico y prospectiva-OCT 6-2026.pdf
+Software o Aplicativo Prospectiva*.xlsm
