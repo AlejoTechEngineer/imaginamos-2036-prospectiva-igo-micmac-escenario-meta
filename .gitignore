@@ -27,3 +27,9 @@ Escenario No. 2/
 Escenario No. 3/
 Primer sincronico- Pensamiento estrategico y prospectiva-OCT 6-2026.pdf
 Software o Aplicativo Prospectiva*.xlsm
+
+# ── Carpeta ajena al proyecto (archivos de otro grupo, solo local) ──
+/Otro grupo que anda que ver/
+
+# ── Copia comprimida de simulador/resultados (redundante, solo local) ──
+simulador/Resultados_Simulador_Imaginamos.zip

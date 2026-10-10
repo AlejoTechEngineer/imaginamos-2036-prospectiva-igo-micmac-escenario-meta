@@ -46,7 +46,7 @@
 
 ## 🎯 Contexto y Alcance
 
-Este repositorio contiene el estudio de prospectiva estratégica de **Imaginamos S.A.S.**, empresa bogotana de transformación digital fundada en 2007. El estudio se desarrolló con el **Software de Análisis Prospectivo del Politécnico Grancolombiano**, bajo el enfoque de la escuela francesa de prospectiva (**Michel Godet**), con horizonte **2026–2036**.
+Este repositorio contiene el estudio de prospectiva estratégica del **Grupo 9** sobre **Imaginamos S.A.S.**, empresa bogotana de transformación digital fundada en 2007. El estudio se desarrolló con el **Software de Análisis Prospectivo del Politécnico Grancolombiano**, bajo el enfoque de la escuela francesa de prospectiva (**Michel Godet**), con horizonte **2026–2036**.
 
 El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, identifica las variables que pueden transformar su posición competitiva y las prioriza. Luego analiza sus relaciones de influencia y dependencia, y construye el **escenario meta** que orienta la planeación estratégica de la compañía a diez años.
 
@@ -69,9 +69,9 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
 <table align="center">
   <tr><th>Elemento</th><th>Descripción</th></tr>
   <tr><td colspan="2"><b>📂 docs/</b></td></tr>
-  <tr><td><code>Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva.pdf</code></td><td>📘 Informe final: presentación de la empresa, matriz de 30 variables, análisis IGO, resultados de la simulación, conclusiones y anexos</td></tr>
-  <tr><td><code>Diploma didáctico.pdf</code></td><td>🎓 Diploma de finalización de la simulación en el software de prospectiva</td></tr>
+  <tr><td><code>Entrega_Proyecto_1_Imaginamos_Grupo_9.pdf</code></td><td>📘 Informe final de la Entrega 1 del Grupo 9: presentación de la empresa, matriz de 30 variables, análisis IGO, resultados de la simulación, conclusiones y anexos</td></tr>
   <tr><td colspan="2"><b>📂 simulador/resultados/</b></td></tr>
+  <tr><td><code>Diploma_didáctico.pdf</code></td><td>🎓 Constancia de finalización de la simulación individual (9 de octubre de 2026)</td></tr>
   <tr><td><code>VariablesIniciales.xlsx</code></td><td>📋 Las 30 variables iniciales con su calificación de importancia y gobernabilidad</td></tr>
   <tr><td><code>RankingVariables.xlsx</code></td><td>🏆 Ranking de las 10 variables clave</td></tr>
   <tr><td><code>PoderConflicto.xlsx</code></td><td>⚖️ Influencia y dependencia de cada variable, y su zona en el plano MIC-MAC</td></tr>
@@ -215,7 +215,7 @@ flowchart TD
 
 ## 📄 Cómo Revisar el Proyecto
 
-1. Abrir el informe final `docs/Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva.pdf` para leer el análisis completo.
+1. Abrir el informe final `docs/Entrega_Proyecto_1_Imaginamos_Grupo_9.pdf` para leer el análisis completo.
 2. Revisar los archivos Excel de `simulador/resultados/`, que contienen las salidas de cada etapa del simulador.
 3. Ver el gráfico `simulador/resultados/GraficaMicMac.png` para ubicar las variables en las zonas de poder, conflicto, resultado y autonomía.
 4. Revisar las capturas de `evidencias/`, que muestran el proceso completo en el simulador.
@@ -240,7 +240,7 @@ flowchart TD
 | Lista de escenarios más probables | `simulador/resultados/ListaEscenarioMeta.xlsx` | ✔ |
 | Escenario meta | `simulador/resultados/Escenario_Meta.xlsx` | ✔ |
 | Simulador diligenciado | `simulador/herramientas/Simulador_Prospectiva_Imaginamos.xlsm` | ✔ |
-| Diploma de finalización de la simulación | `docs/Diploma didáctico.pdf` | ✔ |
+| Constancia de finalización de la simulación individual (9 de octubre de 2026) | `simulador/resultados/Diploma_didáctico.pdf` | ✔ |
 
 </details>
 
