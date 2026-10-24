@@ -2,7 +2,7 @@
 
 # 🔭 Análisis Prospectivo de Imaginamos S.A.S. – Horizonte 2036
 
-### *Matriz IGO, Impactos Cruzados, MIC-MAC, Hipótesis y Escenario Meta*
+### *Matriz IGO, Impactos Cruzados, MIC-MAC, Hipótesis, Escenario Meta y Propuesta Estratégica*
 
 **Módulo: Pensamiento Estratégico y Prospectiva · Politécnico Grancolombiano · Unidad 1**
 
@@ -12,9 +12,10 @@
 [![Horizonte](https://img.shields.io/badge/Horizonte-2026%E2%80%932036-150458.svg)]()
 [![Escenario meta](https://img.shields.io/badge/Escenario%20meta-48%2C33%25-orange.svg)]()
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Entregado-success.svg)]()
+[![Entrega 2](https://img.shields.io/badge/Entrega%202-Propuesta%20estrat%C3%A9gica-blueviolet.svg)](segunda-entrega/)
+[![Status](https://img.shields.io/badge/Status-Entregas%201%20y%202-success.svg)]()
 
-**[Contexto](#-contexto-y-alcance) • [Contenido](#-contenido-del-repositorio) • [Herramientas](#-herramientas-utilizadas) • [Arquitectura](#-arquitectura-del-análisis) • [Resultados](#-resultados-clave) • [Autores](#-autores)**
+**[Contexto](#-contexto-y-alcance) • [Contenido](#-contenido-del-repositorio) • [Herramientas](#-herramientas-utilizadas) • [Arquitectura](#-arquitectura-del-análisis) • [Resultados](#-resultados-clave) • [Entrega 2](#-segunda-entrega-propuesta-estratégica) • [Autores](#-autores)**
 
 <img src="https://img.shields.io/badge/Empresa-Imaginamos%20S.A.S.-blue?style=flat-square" alt="Empresa"/>
 <img src="https://img.shields.io/badge/Sector-Transformaci%C3%B3n%20Digital-green?style=flat-square" alt="Sector"/>
@@ -36,6 +37,7 @@
 - [🧭 Metodología](#-metodología)
 - [📊 Resultados Clave](#-resultados-clave)
 - [🗺️ Variables Clave en el Plano MIC-MAC](#️-variables-clave-en-el-plano-mic-mac)
+- [🚀 Segunda Entrega: Propuesta Estratégica](#-segunda-entrega-propuesta-estratégica)
 - [📄 Cómo Revisar el Proyecto](#-cómo-revisar-el-proyecto)
 - [✅ Evidencias Incluidas](#-evidencias-incluidas)
 - [📝 Nota](#-nota)
@@ -70,6 +72,9 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
   <tr><th>Elemento</th><th>Descripción</th></tr>
   <tr><td colspan="2"><b>📂 docs/</b></td></tr>
   <tr><td><code>Entrega_Proyecto_1_Imaginamos_Grupo_9.pdf</code></td><td>📘 Informe final de la Entrega 1 del Grupo 9: presentación de la empresa, matriz de 30 variables, análisis IGO, resultados de la simulación, conclusiones y anexos</td></tr>
+  <tr><td colspan="2"><b>📂 segunda-entrega/</b></td></tr>
+  <tr><td><code>Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva_Actividad_No_2.pdf</code></td><td>🚀 Informe final de la segunda entrega: marco de referencia, metodología ampliada, escenario meta y propuesta estratégica (océano azul, Modelo Delta, matriz BCG, objetivos, planes de contingencia y hoja de ruta 2026-2036)</td></tr>
+  <tr><td><code>README.md</code></td><td>📄 Descripción de la carpeta y del contenido de la segunda entrega</td></tr>
   <tr><td colspan="2"><b>📂 simulador/resultados/</b></td></tr>
   <tr><td><code>Diploma_didáctico.pdf</code></td><td>🎓 Constancia de finalización de la simulación individual (9 de octubre de 2026)</td></tr>
   <tr><td><code>VariablesIniciales.xlsx</code></td><td>📋 Las 30 variables iniciales con su calificación de importancia y gobernabilidad</td></tr>
@@ -91,7 +96,7 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
   <tr><td><code>.gitignore</code></td><td>🚫 Mantiene en local los documentos editables (<code>.docx</code>, <code>.doc</code>), el material del curso y los temporales de Office</td></tr>
 </table>
 
-> ℹ️ El repositorio versiona **el informe en PDF, los resultados y las herramientas del simulador, y las evidencias**. La versión editable en Word (`.docx`), los enunciados y el material del curso quedan excluidos vía `.gitignore` y permanecen solo en local.
+> ℹ️ El repositorio versiona **los informes en PDF de las entregas 1 y 2, los resultados y las herramientas del simulador, y las evidencias**. Las versiones editables en Word (`.docx`), incluida la de la segunda entrega, siguen excluidas vía `.gitignore`, al igual que los enunciados y el material del curso, y permanecen solo en local.
 
 ---
 
@@ -121,21 +126,37 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
 
 ```mermaid
 flowchart TD
-    A[1. Introduccion] --> B[2. Enfoque metodologico]
+    A[1. Introduccion] --> B[2. Metodologia]
+    B --> B1[Analisis estructural MIC-MAC]
+    B --> B2[Hipotesis y escenarios]
+    B --> B3[Planeacion estrategica]
     B --> C[3. Presentacion de la empresa]
     C --> C1[Ficha tecnica e historia]
     C --> C2[Modelo de negocio y portafolio]
     C --> C3[Contexto sectorial y Porter]
-    C --> D[4. Matriz general de 30 variables]
+    C --> M[4. Marco de referencia]
+    M --> M1[PESTEL de las 30 variables]
+    M --> M2[Sintesis DOFA]
+    M --> M3[Factores clave de exito del sector]
+    M --> M4[Cadena de valor, ventaja competitiva y ciclo de vida]
+    M --> M5[Cluster de software y TI]
+    M --> D[5. Matriz general de 30 variables]
     D --> D1[Analisis y plano IGO]
     D --> D2[Ranking de 10 variables clave]
-    D --> E[5. Resultados de la simulacion]
+    D --> E[6. Resultados de la simulacion]
     E --> E1[Impactos cruzados y MIC-MAC]
     E --> E2[Hipotesis y escenarios]
     E --> E3[Escenario meta]
-    E --> F[6. Conclusiones]
-    F --> G[7. Referencias]
-    G --> H[8. Anexos]
+    E --> P[7. Escenario meta y propuesta estrategica]
+    P --> P1[Mision, vision 2036 y valores]
+    P --> P2[Oceano azul y Modelo Delta]
+    P --> P3[Matriz BCG]
+    P --> P4[Objetivos y metas]
+    P --> P5[Planes de contingencia]
+    P --> P6[Hoja de ruta 2026-2036]
+    P --> F[8. Conclusiones]
+    F --> G[9. Referencias]
+    G --> H[10. Anexos]
 ```
 
 ---
@@ -154,7 +175,12 @@ flowchart TD
     H --> I[Hipotesis de dependencia alta]
     I --> J[10 escenarios mas probables]
     J --> K[Escenario meta - 48,33 por ciento]
-    K --> L[Planeacion estrategica]
+    K --> L[Oceano azul]
+    L --> M[Modelo Delta]
+    M --> N[Matriz BCG]
+    N --> O[Objetivos y metas]
+    O --> P[Planes de contingencia]
+    P --> Q[Hoja de ruta 2026-2036]
 ```
 
 ---
@@ -213,6 +239,85 @@ flowchart TD
 
 ---
 
+## 🚀 Segunda Entrega: Propuesta Estratégica
+
+La segunda entrega toma el **escenario meta (48,33 %)** como punto de partida y lo convierte en una propuesta estratégica para Imaginamos S.A.S. a 2036. El informe completo está en [`segunda-entrega/`](segunda-entrega/).
+
+### 🧩 Contenido nuevo del informe
+
+| Sección | Contenido |
+|:---|:---|
+| 📝 **Resumen e Introducción** | Resumen (abstract) e Introducción con la estructura de artículo científico |
+| 🌐 **Marco de referencia** | PESTEL de las 30 variables · Síntesis DOFA · Factores clave de éxito del sector · Cadena de valor, ventaja competitiva y ciclo de vida · Clúster de software y TI |
+| 🧭 **Metodología ampliada** | Análisis estructural MIC-MAC · Hipótesis y escenarios · Planeación estratégica |
+| 🎯 **Escenario meta y propuesta estratégica** | Escenario meta con probabilidad del 48,33 % y la propuesta estratégica que se deriva de él |
+| ✅ **Conclusiones y referencias** | Conclusiones ampliadas (13 a 18) y 5 referencias nuevas (Hax, Kim y Mauborgne, Schwartz y las lecturas de los Escenarios 4 y 5) |
+
+<details>
+<summary><b>🔎 Ver la síntesis DOFA</b></summary>
+
+| Componente | Cantidad |
+|:---|:---:|
+| 🟢 Oportunidades | 7 |
+| 🔴 Amenazas | 13 |
+| 💪 Fortalezas | 5 |
+| ⚠️ Debilidades | 5 |
+
+</details>
+
+### 🏛️ Propuesta estratégica
+
+- 🧭 **Misión, visión 2036 y 6 valores.**
+- 🌊 **Estrategia de océano azul:** eliminar, reducir, incrementar y crear.
+- 🔺 **Posicionamiento con el Modelo Delta:** solución integral al cliente.
+- 📊 **Matriz BCG del portafolio:** ubicación cualitativa preliminar.
+
+### 🎯 Objetivos estratégicos
+
+| # | Objetivo y meta |
+|:---:|:---|
+| O1 | IA como motor de productividad (más del 70 % de tareas con asistencia de IA) |
+| O2 | Migrar a ingresos recurrentes |
+| O3 | Seguridad certificada y cero incidentes graves |
+| O4 | Rotación técnica inferior al 10 % |
+| O5 | Entre 15 % y 40 % de ingresos del exterior |
+| O6 | 100 a 300 colaboradores con retención de clientes entre 70 % y 85 % |
+
+<details>
+<summary><b>🚨 Ver las señales de alerta de los planes de contingencia</b></summary>
+
+- 💱 Tasa de cambio
+- 📉 Desaceleración del sector
+- ⚖️ Reforma laboral
+- 👩‍💻 Brecha de talento
+- 🧱 Low-code
+- 🤖 Regulación de IA
+- 🏛️ Política pública
+- 🌎 Nearshoring
+
+</details>
+
+### 🗓️ Hoja de ruta 2026-2036
+
+```mermaid
+flowchart LR
+    A[2026-2028 Fundamentos] --> B[2029-2032 Escalamiento]
+    B --> C[2033-2036 Consolidacion]
+```
+
+### 🧰 Herramientas del módulo aplicadas
+
+- 🌊 Océanos rojos y azules
+- 🔺 Modelo Delta
+- 📊 Matriz BCG
+- ✖️ Ejes de Schwartz
+- 🔑 Factores clave de éxito
+- 🏅 Ventaja competitiva
+- 🔗 Cadena de valor
+- 🏙️ Clústeres
+
+---
+
 ## 📄 Cómo Revisar el Proyecto
 
 1. Abrir el informe final `docs/Entrega_Proyecto_1_Imaginamos_Grupo_9.pdf` para leer el análisis completo.
@@ -220,6 +325,7 @@ flowchart TD
 3. Ver el gráfico `simulador/resultados/GraficaMicMac.png` para ubicar las variables en las zonas de poder, conflicto, resultado y autonomía.
 4. Revisar las capturas de `evidencias/`, que muestran el proceso completo en el simulador.
 5. Abrir `simulador/herramientas/Simulador_Prospectiva_Imaginamos.xlsm` en Microsoft Excel y **habilitar las macros** para explorar el simulador diligenciado.
+6. Abrir la carpeta `segunda-entrega/` y leer el informe `Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva_Actividad_No_2.pdf` con la propuesta estratégica.
 
 ---
 
@@ -241,6 +347,7 @@ flowchart TD
 | Escenario meta | `simulador/resultados/Escenario_Meta.xlsx` | ✔ |
 | Simulador diligenciado | `simulador/herramientas/Simulador_Prospectiva_Imaginamos.xlsm` | ✔ |
 | Constancia de finalización de la simulación individual (9 de octubre de 2026) | `simulador/resultados/Diploma_didáctico.pdf` | ✔ |
+| Informe de la segunda entrega: propuesta estratégica | `segunda-entrega/Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva_Actividad_No_2.pdf` | ✔ |
 
 </details>
 
@@ -248,7 +355,7 @@ flowchart TD
 
 ## 📝 Nota
 
-Este estudio corresponde a una **actividad académica**. Se elaboró con fines exclusivamente formativos y no constituye una recomendación de negocio para Imaginamos S.A.S.
+Este estudio corresponde a una **actividad académica**. Se elaboró con fines exclusivamente formativos y no constituye una recomendación de negocio para Imaginamos S.A.S. Las metas intermedias (hitos 2029) y la ubicación en la matriz BCG son propuestas del equipo y deben validarse con información interna de la empresa.
 
 ---
 
