@@ -6,14 +6,14 @@
 
 **Módulo: Pensamiento Estratégico y Prospectiva · Politécnico Grancolombiano · Unidad 1**
 
-[![Módulo](https://img.shields.io/badge/M%C3%B3dulo-Pensamiento%20Estrat%C3%A9gico%20y%20Prospectiva-0052CC.svg)]()
-[![Institución](https://img.shields.io/badge/Instituci%C3%B3n-Polit%C3%A9cnico%20Grancolombiano-004488.svg)]()
-[![Escuela](https://img.shields.io/badge/Escuela-Francesa%20%C2%B7%20Michel%20Godet-3776AB.svg)]()
-[![Horizonte](https://img.shields.io/badge/Horizonte-2026%E2%80%932036-150458.svg)]()
-[![Escenario meta](https://img.shields.io/badge/Escenario%20meta-48%2C33%25-orange.svg)]()
+![Módulo](https://img.shields.io/badge/M%C3%B3dulo-Pensamiento%20Estrat%C3%A9gico%20y%20Prospectiva-0052CC.svg)
+![Institución](https://img.shields.io/badge/Instituci%C3%B3n-Polit%C3%A9cnico%20Grancolombiano-004488.svg)
+![Escuela](https://img.shields.io/badge/Escuela-Francesa%20%C2%B7%20Michel%20Godet-3776AB.svg)
+![Horizonte](https://img.shields.io/badge/Horizonte-2026%E2%80%932036-150458.svg)
+![Escenario meta](https://img.shields.io/badge/Escenario%20meta-48%2C33%25-orange.svg)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-green.svg)](LICENSE)
 [![Entrega 2](https://img.shields.io/badge/Entrega%202-Propuesta%20estrat%C3%A9gica-blueviolet.svg)](segunda-entrega/)
-[![Status](https://img.shields.io/badge/Status-Entregas%201%20y%202-success.svg)]()
+![Status](https://img.shields.io/badge/Status-Entregas%201%20y%202-success.svg)
 
 **[Contexto](#-contexto-y-alcance) • [Contenido](#-contenido-del-repositorio) • [Herramientas](#-herramientas-utilizadas) • [Arquitectura](#-arquitectura-del-análisis) • [Resultados](#-resultados-clave) • [Entrega 2](#-segunda-entrega-propuesta-estratégica) • [Autores](#-autores)**
 
@@ -54,7 +54,7 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
 
 > **Empresa:** Imaginamos S.A.S. — desarrollo de software y transformación digital (Bogotá, Colombia).
 > **Enfoque:** prospectiva estratégica, escuela francesa (Michel Godet).
-> **Alcance:** 30 variables iniciales → 10 variables clave → análisis estructural MIC-MAC → hipótesis → escenario meta con probabilidad del **48,33 %**.
+> **Alcance:** 30 variables iniciales → 10 variables clave → análisis estructural MIC-MAC → hipótesis → escenario meta con probabilidad del **48,33 %** → propuesta estratégica a 2036 (Entrega 2).
 
 ### 🌟 ¿Qué aporta este estudio?
 
@@ -63,6 +63,7 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
 - 🕸️ **Análisis estructural** con matriz de impactos cruzados y plano MIC-MAC.
 - 🔮 **Construcción de escenarios** a partir de hipótesis de dependencia baja y alta.
 - 🧭 **Escenario meta** como punto de partida para la planeación estratégica a 2036.
+- 🚀 **Propuesta estratégica** (Entrega 2): océano azul, Modelo Delta, matriz BCG, objetivos estratégicos, planes de contingencia y hoja de ruta 2026-2036.
 
 ---
 
@@ -118,6 +119,8 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
 | **Microsoft Excel (.xlsm con macros)** | Ejecución del simulador y exportación de los informes de cada etapa |
 | **Matriz IGO** | Priorización de las 30 variables según importancia y gobernabilidad |
 | **PESTEL · DOFA · Cinco fuerzas de Porter** | Diagnóstico estratégico de la empresa y su entorno |
+| **Factores clave de éxito · Ventaja competitiva · Cadena de valor · Clústeres** | Marco de referencia del sector (Entrega 2) |
+| **Océanos rojos y azules · Modelo Delta · Matriz BCG · Ejes de Schwartz** | Formulación de la propuesta estratégica (Entrega 2) |
 | **Mermaid** | Diagramas de estructura y de flujo de este README |
 
 ---
@@ -127,9 +130,9 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
 ```mermaid
 flowchart TD
     A[1. Introduccion] --> B[2. Metodologia]
-    B --> B1[Analisis estructural MIC-MAC]
-    B --> B2[Hipotesis y escenarios]
-    B --> B3[Planeacion estrategica]
+    B --> B1[Enfoque del analisis estructural]
+    B --> B2[Enfoque de hipotesis y escenarios]
+    B --> B3[Enfoque de planeacion estrategica]
     B --> C[3. Presentacion de la empresa]
     C --> C1[Ficha tecnica e historia]
     C --> C2[Modelo de negocio y portafolio]
@@ -165,7 +168,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Diagnostico PESTEL + DOFA] --> B[30 variables]
+    A[Diagnostico PESTEL + DOFA + Porter] --> B[30 variables]
     B --> C[Matriz IGO - Importancia y Gobernabilidad]
     C --> D[Ranking de 10 variables clave]
     D --> E[Matriz de impactos cruzados]
@@ -194,6 +197,7 @@ flowchart TD
 | **Matriz de impactos cruzados** | Cada par de variables se califica de **0 a 3**: 0 sin influencia, 1 débil, 2 moderada y 3 fuerte. Siguiendo la convención del simulador, la suma de cada fila da la **dependencia** y la de cada columna, la **influencia** |
 | **Plano MIC-MAC** | Ubica cada variable según su influencia y dependencia: **poder** (alta influencia, baja dependencia), **conflicto** (ambas altas), **salida o resultado** (baja influencia, alta dependencia) y **autónoma** (ambas bajas) |
 | **Hipótesis y escenarios** | Se formulan hipótesis para las variables de dependencia baja y alta. El simulador combina sus probabilidades, genera los 10 escenarios más probables y se elige el **escenario meta** |
+| **Planeación estratégica** | A partir del escenario meta se formulan la misión, la visión 2036, los objetivos estratégicos, los planes de contingencia y la hoja de ruta (Entrega 2) |
 
 ---
 
@@ -305,6 +309,8 @@ flowchart LR
     B --> C[2033-2036 Consolidacion]
 ```
 
+> ℹ️ Las metas intermedias (hitos 2029) de cada objetivo se presentan en el informe de la segunda entrega.
+
 ### 🧰 Herramientas del módulo aplicadas
 
 - 🌊 Océanos rojos y azules
@@ -320,7 +326,7 @@ flowchart LR
 
 ## 📄 Cómo Revisar el Proyecto
 
-1. Abrir el informe final `docs/Entrega_Proyecto_1_Imaginamos_Grupo_9.pdf` para leer el análisis completo.
+1. Abrir el informe de la Entrega 1 `docs/Entrega_Proyecto_1_Imaginamos_Grupo_9.pdf` para leer el análisis prospectivo completo.
 2. Revisar los archivos Excel de `simulador/resultados/`, que contienen las salidas de cada etapa del simulador.
 3. Ver el gráfico `simulador/resultados/GraficaMicMac.png` para ubicar las variables en las zonas de poder, conflicto, resultado y autonomía.
 4. Revisar las capturas de `evidencias/`, que muestran el proceso completo en el simulador.
