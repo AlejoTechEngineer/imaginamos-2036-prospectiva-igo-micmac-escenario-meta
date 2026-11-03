@@ -13,9 +13,10 @@
 ![Escenario meta](https://img.shields.io/badge/Escenario%20meta-48%2C33%25-orange.svg)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-green.svg)](LICENSE)
 [![Entrega 2](https://img.shields.io/badge/Entrega%202-Propuesta%20estrat%C3%A9gica-blueviolet.svg)](segunda-entrega/)
-![Status](https://img.shields.io/badge/Status-Entregas%201%20y%202-success.svg)
+[![Entrega 3](https://img.shields.io/badge/Entrega%203-Actividad%20No.%203-teal.svg)](tercera-entrega/)
+![Status](https://img.shields.io/badge/Status-Entregas%201%2C%202%20y%203-success.svg)
 
-**[Contexto](#-contexto-y-alcance) • [Contenido](#-contenido-del-repositorio) • [Herramientas](#-herramientas-utilizadas) • [Arquitectura](#-arquitectura-del-análisis) • [Resultados](#-resultados-clave) • [Entrega 2](#-segunda-entrega-propuesta-estratégica) • [Autores](#-autores)**
+**[Contexto](#-contexto-y-alcance) • [Contenido](#-contenido-del-repositorio) • [Herramientas](#-herramientas-utilizadas) • [Arquitectura](#-arquitectura-del-análisis) • [Resultados](#-resultados-clave) • [Entrega 2](#-segunda-entrega-propuesta-estratégica) • [Entrega 3](#-tercera-entrega-actividad-no-3) • [Autores](#-autores)**
 
 <img src="https://img.shields.io/badge/Empresa-Imaginamos%20S.A.S.-blue?style=flat-square" alt="Empresa"/>
 <img src="https://img.shields.io/badge/Sector-Transformaci%C3%B3n%20Digital-green?style=flat-square" alt="Sector"/>
@@ -38,6 +39,7 @@
 - [📊 Resultados Clave](#-resultados-clave)
 - [🗺️ Variables Clave en el Plano MIC-MAC](#️-variables-clave-en-el-plano-mic-mac)
 - [🚀 Segunda Entrega: Propuesta Estratégica](#-segunda-entrega-propuesta-estratégica)
+- [📘 Tercera Entrega: Actividad No. 3](#-tercera-entrega-actividad-no-3)
 - [📄 Cómo Revisar el Proyecto](#-cómo-revisar-el-proyecto)
 - [✅ Evidencias Incluidas](#-evidencias-incluidas)
 - [📝 Nota](#-nota)
@@ -76,6 +78,9 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
   <tr><td colspan="2"><b>📂 segunda-entrega/</b></td></tr>
   <tr><td><code>Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva_Actividad_No_2.pdf</code></td><td>🚀 Informe final de la segunda entrega: marco de referencia, metodología ampliada, escenario meta y propuesta estratégica (océano azul, Modelo Delta, matriz BCG, objetivos, planes de contingencia y hoja de ruta 2026-2036)</td></tr>
   <tr><td><code>README.md</code></td><td>📄 Descripción de la carpeta y del contenido de la segunda entrega</td></tr>
+  <tr><td colspan="2"><b>📂 tercera-entrega/</b></td></tr>
+  <tr><td><code>Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva_Actividad_No_3.pdf</code></td><td>📘 Informe final de la tercera entrega (Actividad No. 3, 4 de noviembre de 2026): consolida diagnóstico, matriz de 30 variables, IGO, simulación MIC-MAC, escenario meta y propuesta estratégica a 2036</td></tr>
+  <tr><td><code>README.md</code></td><td>📄 Descripción de la carpeta y del contenido de la tercera entrega</td></tr>
   <tr><td colspan="2"><b>📂 simulador/resultados/</b></td></tr>
   <tr><td><code>Diploma_didáctico.pdf</code></td><td>🎓 Constancia de finalización de la simulación individual (9 de octubre de 2026)</td></tr>
   <tr><td><code>VariablesIniciales.xlsx</code></td><td>📋 Las 30 variables iniciales con su calificación de importancia y gobernabilidad</td></tr>
@@ -97,7 +102,7 @@ El trabajo parte de un diagnóstico estratégico de la empresa y su entorno, ide
   <tr><td><code>.gitignore</code></td><td>🚫 Mantiene en local los documentos editables (<code>.docx</code>, <code>.doc</code>), el material del curso y los temporales de Office</td></tr>
 </table>
 
-> ℹ️ El repositorio versiona **los informes en PDF de las entregas 1 y 2, los resultados y las herramientas del simulador, y las evidencias**. Las versiones editables en Word (`.docx`), incluida la de la segunda entrega, siguen excluidas vía `.gitignore`, al igual que los enunciados y el material del curso, y permanecen solo en local.
+> ℹ️ El repositorio versiona **los informes en PDF de las entregas 1, 2 y 3, los resultados y las herramientas del simulador, y las evidencias**. Las versiones editables en Word (`.docx`), incluidas las de la segunda y la tercera entrega, siguen excluidas vía `.gitignore`, al igual que los enunciados y el material del curso, y permanecen solo en local.
 
 ---
 
@@ -324,6 +329,20 @@ flowchart LR
 
 ---
 
+## 📘 Tercera Entrega: Actividad No. 3
+
+La tercera entrega (**Actividad No. 3**, presentada el **4 de noviembre de 2026**) reúne en un solo informe el estudio prospectivo completo de Imaginamos S.A.S. con horizonte 2036. El informe está en [`tercera-entrega/`](tercera-entrega/).
+
+| Sección | Contenido |
+|:---|:---|
+| 🏢 **Presentación de la empresa** | Ficha técnica, evolución histórica, modelo de negocio, portafolio, contexto sectorial y cinco fuerzas de Porter |
+| 📊 **Matriz general de 30 variables** | Análisis IGO, plano IGO y ranking de las 10 variables clave |
+| 🕸️ **Resultados de la simulación** | Impactos cruzados, gráfico MIC-MAC, hipótesis, escenarios más probables y escenario meta (48,33 %) |
+| 🎯 **Escenario meta y propuesta estratégica** | Misión, visión y valores · Océano azul · Modelo Delta · Matriz BCG · Objetivos y metas · Planes de contingencia · Hoja de ruta 2026-2036 |
+| ✅ **Conclusiones y referencias** | 18 conclusiones, referencias bibliográficas y anexos |
+
+---
+
 ## 📄 Cómo Revisar el Proyecto
 
 1. Abrir el informe de la Entrega 1 `docs/Entrega_Proyecto_1_Imaginamos_Grupo_9.pdf` para leer el análisis prospectivo completo.
@@ -332,6 +351,7 @@ flowchart LR
 4. Revisar las capturas de `evidencias/`, que muestran el proceso completo en el simulador.
 5. Abrir `simulador/herramientas/Simulador_Prospectiva_Imaginamos.xlsm` en Microsoft Excel y **habilitar las macros** para explorar el simulador diligenciado.
 6. Abrir la carpeta `segunda-entrega/` y leer el informe `Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva_Actividad_No_2.pdf` con la propuesta estratégica.
+7. Abrir la carpeta `tercera-entrega/` y leer el informe `Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva_Actividad_No_3.pdf` con el estudio consolidado.
 
 ---
 
@@ -354,6 +374,7 @@ flowchart LR
 | Simulador diligenciado | `simulador/herramientas/Simulador_Prospectiva_Imaginamos.xlsm` | ✔ |
 | Constancia de finalización de la simulación individual (9 de octubre de 2026) | `simulador/resultados/Diploma_didáctico.pdf` | ✔ |
 | Informe de la segunda entrega: propuesta estratégica | `segunda-entrega/Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva_Actividad_No_2.pdf` | ✔ |
+| Informe de la tercera entrega: Actividad No. 3 | `tercera-entrega/Desarrollo_U1_Pensamiento_Estrategico_y_Prospectiva_Actividad_No_3.pdf` | ✔ |
 
 </details>
 
