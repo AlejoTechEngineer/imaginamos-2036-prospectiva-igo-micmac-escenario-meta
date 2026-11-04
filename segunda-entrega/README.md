@@ -27,7 +27,7 @@ El documento sigue la estructura de artículo científico e incorpora las herram
   - Misión, visión 2036 y 6 valores.
   - Estrategia de océano azul (eliminar, reducir, incrementar y crear).
   - Posicionamiento con el Modelo Delta: solución integral al cliente.
-  - Matriz BCG del portafolio (ubicación cualitativa preliminar).
+  - Matriz BCG del portafolio (ubicación cualitativa).
   - 6 objetivos estratégicos:
     - **O1** IA como motor de productividad (más del 70 % de tareas con asistencia de IA).
     - **O2** Migrar a ingresos recurrentes.

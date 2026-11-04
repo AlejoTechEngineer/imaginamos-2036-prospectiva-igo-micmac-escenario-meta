@@ -279,7 +279,7 @@ La segunda entrega toma el **escenario meta (48,33 %)** como punto de partida y 
 - 🧭 **Misión, visión 2036 y 6 valores.**
 - 🌊 **Estrategia de océano azul:** eliminar, reducir, incrementar y crear.
 - 🔺 **Posicionamiento con el Modelo Delta:** solución integral al cliente.
-- 📊 **Matriz BCG del portafolio:** ubicación cualitativa preliminar.
+- 📊 **Matriz BCG del portafolio:** ubicación cualitativa.
 
 ### 🎯 Objetivos estratégicos
 
@@ -331,15 +331,45 @@ flowchart LR
 
 ## 📘 Tercera Entrega: Actividad No. 3
 
-La tercera entrega (**Actividad No. 3**, presentada el **4 de noviembre de 2026**) reúne en un solo informe el estudio prospectivo completo de Imaginamos S.A.S. con horizonte 2036. El informe está en [`tercera-entrega/`](tercera-entrega/).
+La tercera entrega (**Actividad No. 3**, presentada el **4 de noviembre de 2026**) es la **versión final** del estudio: integra en un solo informe las tres entregas del análisis prospectivo de Imaginamos S.A.S. con horizonte 2036. El informe está en [`tercera-entrega/`](tercera-entrega/).
 
 | Sección | Contenido |
 |:---|:---|
 | 🏢 **Presentación de la empresa** | Ficha técnica, evolución histórica, modelo de negocio, portafolio, contexto sectorial y cinco fuerzas de Porter |
 | 📊 **Matriz general de 30 variables** | Análisis IGO, plano IGO y ranking de las 10 variables clave |
-| 🕸️ **Resultados de la simulación** | Impactos cruzados, gráfico MIC-MAC, hipótesis, escenarios más probables y escenario meta (48,33 %) |
-| 🎯 **Escenario meta y propuesta estratégica** | Misión, visión y valores · Océano azul · Modelo Delta · Matriz BCG · Objetivos y metas · Planes de contingencia · Hoja de ruta 2026-2036 |
-| ✅ **Conclusiones y referencias** | 18 conclusiones, referencias bibliográficas y anexos |
+| 🌐 **Marco de referencia** | PESTEL · Análisis interno · Cadena de valor · Clúster de software y TI |
+| 🕸️ **Simulación prospectiva** | Ranking · Matriz de impactos cruzados · MIC-MAC · Hipótesis · Escenarios · Escenario meta |
+| 🎯 **Propuesta estratégica** | Misión, visión 2036 y valores · Océano azul · Modelo Delta · Matriz BCG · Objetivos y metas · Planes de contingencia · Hoja de ruta 2026-2036 · Roadmap tecnológico · Plan de comunicación estratégica |
+| ✅ **Conclusiones y referencias** | 20 conclusiones, referencias bibliográficas y enlace al repositorio |
+
+### 🕸️ Lectura de la simulación
+
+- 💪 **Zonas del MIC-MAC** (umbrales del simulador): **1** variable en poder, **8** en conflicto y **1** variable resultado (ingresos concentrados en proyectos).
+- 🔁 **Escenarios repetidos:** los escenarios 2, 5 y 8 repiten a los 1, 4 y 7, de modo que el simulador entrega **siete configuraciones distintas**.
+- 🔮 **Escenario meta E3:** **48,33 %** según el simulador. Condicionado a su propia hipótesis de brecha de talento sería **42,22 %**, por lo que se selecciona como **escenario apuesta**, no por ser el más probable.
+
+### 🛠️ Roadmap tecnológico y plan de comunicación
+
+```mermaid
+flowchart LR
+    A[Escenario meta E3] --> B[Hoja de ruta 2026-2036]
+    B --> C[Roadmap tecnologico]
+    C --> D[Plan de comunicacion estrategica]
+```
+
+| Componente | Qué define |
+|:---|:---|
+| 🛠️ **Roadmap tecnológico** | Necesidad · Capacidad · Tecnología · Proyectos · Responsable · Resultado esperado |
+| 📣 **Plan de comunicación estratégica** | Públicos · Mensajes · Canales · Acciones · Responsables · Indicadores |
+
+<details>
+<summary><b>📦 Ver los anexos de la tercera entrega</b></summary>
+
+Los anexos se entregan en un `.zip` aparte, que no se versiona en el repo:
+
+`Simulador_Prospectiva_Imaginamos.xlsm` · `Matriz_IGO_Imaginamos.xlsx` · `VariablesIniciales.xlsx` · `RankingVariables.xlsx` · `GraficaMicMac.png` · `PoderConflicto.xlsx` · `MatrizHipotesisDepBaja.xlsx` · `MatrizHipotesisDepAlta.xlsx` · `ListaEscenarioMeta.xlsx` · `Escenario_Meta.xlsx` · `Diploma_didáctico.pdf`
+
+</details>
 
 ---
 
@@ -382,7 +412,7 @@ La tercera entrega (**Actividad No. 3**, presentada el **4 de noviembre de 2026*
 
 ## 📝 Nota
 
-Este estudio corresponde a una **actividad académica**. Se elaboró con fines exclusivamente formativos y no constituye una recomendación de negocio para Imaginamos S.A.S. Las metas intermedias (hitos 2029) y la ubicación en la matriz BCG son propuestas del equipo y deben validarse con información interna de la empresa.
+Este estudio corresponde a una **actividad académica**. Se elaboró con fines exclusivamente formativos y no constituye una recomendación de negocio para Imaginamos S.A.S. Las metas intermedias y la ubicación en la matriz BCG son la propuesta del equipo con base en información pública y se revisan cada año junto con los escenarios.
 
 ---
 
